@@ -1,0 +1,16 @@
+{
+  "name": "Intelligent Voice PCI Redaction",
+  "author": {
+    "name": "Intelligent Voice",
+    "email": "support@intelligentvoice.com",
+    "url": "https://www.intelligentvoice.com"
+  },
+  "version": "2.9",
+  "defaultLocale": "en",
+  "marketingOnly": false,
+  "private": false,
+  "gaID": "ua-17518719-2",
+  "termsConditionsURL": "https://www.intelligentvoice.com/terms-and-conditions/",
+  "requirementsOnly": true,
+  "singleInstall": true
+}
