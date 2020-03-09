@@ -32,7 +32,7 @@
       "type": "http_target",
       "title": "Intelligent Voice PCI data redaction",
       "active": true,
-      "target_url": "https://redact2.intelligentvoice.com/redact",
+      "target_url": "https://zendesk-pci-2.intelligentvoice.com/public/redact",
       "method": "post",
       "content_type": "application/json"
     }
