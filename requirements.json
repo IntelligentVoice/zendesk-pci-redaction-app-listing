@@ -7,7 +7,7 @@
           "field": "notification_target",
           "value": [
             "iv_http_target",
-            "{\"ticketid\": \"{{ticket.id}}\", \"ticket.link\": \"{{ticket.link}}\", \"ticket.url\": \"{{ticket.url}}\"}"
+            "{\"ticketid\": \"{{ticket.id}}\", \"ticket.link\": \"{{ticket.link}}\"}"
           ]
         }
       ],

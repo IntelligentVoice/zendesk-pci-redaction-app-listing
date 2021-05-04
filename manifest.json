@@ -1,9 +1,9 @@
 {
-  "name": "Intelligent Voice PCI Redaction",
+  "name": "Intelligent Voice PCI Call Redaction",
   "author": {
     "name": "Intelligent Voice",
     "email": "support@intelligentvoice.com",
-    "url": "https://www.intelligentvoice.com"
+    "url": "https://www.intelligentvoice.com/pci/"
   },
   "version": "2.10",
   "defaultLocale": "en",
