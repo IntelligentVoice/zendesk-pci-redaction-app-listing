@@ -6,7 +6,7 @@
         {
           "field": "notification_webhook",
           "value": [
-            "iv_pci_webhook",
+            "iv_http_webhook",
             "{\"ticketid\": \"{{ticket.id}}\", \"ticket.link\": \"{{ticket.link}}\"}"
           ]
         }
@@ -28,8 +28,8 @@
     }
   },
   "webhooks": {
-    "iv_pci_webhook": {
-      "endpoint": "https://zendesk-pci-2.intelligentvoice.com/public/redact",
+    "iv_http_webhook": {
+      "endpoint": "https://zendesk-pci.intelligentvoice.com/public/redact",
       "http_method": "POST",
       "name": "Intelligent Voice PCI Redaction Webhook",
       "request_format": "json",
