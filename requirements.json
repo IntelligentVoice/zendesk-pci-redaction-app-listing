@@ -4,9 +4,9 @@
       "title": "Transcribe recordings and redact PCI data",
       "actions": [
         {
-          "field": "notification_target",
+          "field": "notification_webhook",
           "value": [
-            "iv_http_target",
+            "iv_http_webhook",
             "{\"ticketid\": \"{{ticket.id}}\", \"ticket.link\": \"{{ticket.link}}\"}"
           ]
         }
@@ -27,14 +27,16 @@
       }
     }
   },
-  "targets": {
-    "iv_http_target": {
-      "type": "http_target",
-      "title": "Intelligent Voice PCI data redaction",
-      "active": true,
-      "target_url": "https://zendesk-pci-2.intelligentvoice.com/public/redact",
-      "method": "post",
-      "content_type": "application/json"
+  "webhooks": {
+    "iv_http_webhook": {
+      "endpoint": "https://zendesk-pci.intelligentvoice.com/public/redact",
+      "http_method": "POST",
+      "name": "Intelligent Voice PCI Redaction Webhook",
+      "request_format": "json",
+      "status": "active",
+      "subscriptions":  [
+        "conditional_ticket_events"
+      ]
     }
   }
 }
