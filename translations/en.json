@@ -14,7 +14,7 @@
     },
     "package": "iv_transcription",
     "installation_instructions": {
-      "value": "To begin the installation process for the App, click on the Free Trial button above.\n\nNote: applications other than the Zendesk Talk application, e.g.: Amazon Connect Zendesk Integration, are not currently supported.\n\nFor details on how to then:\n\n1. Create a new API token from Zendesk\n\n2. Register the API token with Intelligent Voice Limited\n\n3. Restrict the billing to only those Talk Agents who handle PCI\n\nSee the Installation & Configuration sections of:\n <https://support.intelligentvoice.com/hc/en-us/articles/115004002514-How-do-I-install-the-Intelligent-Voice-PCI-redaction-app-for-Zendesk->",
+      "value": "To begin the installation process for the App, click on the Free Trial button above.\n\nNote: applications other than the Zendesk Talk application, e.g.: Amazon Connect Zendesk Integration, are not currently supported.\n\nFor details on how to then:\n\n1. Create a new API token from Zendesk\n\n2. Register the API token with Intelligent Voice Limited\n\n3. Restrict the billing to only those Talk Agents who handle PCI\n\nSee the Installation & Configuration sections of:\n [https://support.intelligentvoice.com/hc/en-us/articles/115004002514-How-do-I-install-the-Intelligent-Voice-PCI-redaction-app-for-Zendesk-](https://support.intelligentvoice.com/hc/en-us/articles/115004002514-How-do-I-install-the-Intelligent-Voice-PCI-redaction-app-for-Zendesk-)",
       "title": "app install instructions"
     }
   }
