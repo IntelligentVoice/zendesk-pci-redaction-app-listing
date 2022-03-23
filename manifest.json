@@ -5,11 +5,6 @@
     "email": "support@intelligentvoice.com",
     "url": "https://www.intelligentvoice.com/pci/"
   },
-  "location": {
-      "support": {
-          "background": "assets/iframe.html"
-      }
-  },
   "frameworkVersion": "2.0",
   "version": "3.0.2",
   "defaultLocale": "en",
