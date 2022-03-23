@@ -5,7 +5,13 @@
     "email": "support@intelligentvoice.com",
     "url": "https://www.intelligentvoice.com/pci/"
   },
-  "version": "3.0.1",
+  "location": {
+      "support": {
+          "background": "assets/iframe.html"
+      }
+  },
+  "frameworkVersion": "2.0",
+  "version": "3.0.2",
   "defaultLocale": "en",
   "marketingOnly": false,
   "private": false,
