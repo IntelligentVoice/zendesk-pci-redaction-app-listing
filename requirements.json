@@ -34,9 +34,11 @@
       "name": "Intelligent Voice PCI Redaction Webhook",
       "request_format": "json",
       "status": "active",
-      "subscriptions":  [
-        "conditional_ticket_events"
-      ]
+      "subscriptions": ["conditional_ticket_events"],
+      "signing_secret": {
+        "algorithm": "SHA256",
+        "secret": "ggCh4116==ng3mZGm0n18=yHT4t8d0N3t"
+      }
     }
   }
 }
