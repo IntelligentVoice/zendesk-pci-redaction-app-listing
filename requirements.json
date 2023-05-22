@@ -37,7 +37,7 @@
       "subscriptions": ["conditional_ticket_events"],
       "signing_secret": {
         "algorithm": "SHA256",
-        "secret": "ggCh4116==ng3mZGm0n18=yHT4t8d0N3t"
+        "secret": "ggCh4116Sp8ng3mZGm0n18RyHT4t8d0N3t"
       }
     }
   }
