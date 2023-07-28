@@ -1,16 +1,16 @@
 {
-  "name": "Intelligent Voice PCI Call Redaction",
+  "name": "Myna PCI Call Redaction",
   "author": {
-    "name": "Intelligent Voice",
+    "name": "Myna Limited",
     "email": "support@intelligentvoice.com",
-    "url": "https://www.intelligentvoice.com/pci/"
+    "url": "https://meetmyna.com/"
   },
   "version": "3.0.1",
   "defaultLocale": "en",
   "marketingOnly": false,
   "private": false,
   "gaID": "ua-17518719-2",
-  "termsConditionsURL": "https://www.intelligentvoice.com/terms-and-conditions/",
+  "termsConditionsURL": "https://meetmyna.com/tscs.html",
   "requirementsOnly": true,
   "singleInstall": true
 }

@@ -31,12 +31,14 @@
     "iv_http_webhook": {
       "endpoint": "https://zendesk-pci.intelligentvoice.com/public/redact",
       "http_method": "POST",
-      "name": "Intelligent Voice PCI Redaction Webhook",
+      "name": "Myna PCI Redaction Webhook",
       "request_format": "json",
       "status": "active",
-      "subscriptions":  [
-        "conditional_ticket_events"
-      ]
+      "subscriptions": ["conditional_ticket_events"],
+      "signing_secret": {
+        "algorithm": "SHA256",
+        "secret": "ggCh4116Sp8ng3mZGm0n18RyHT4t8d0N3t"
+      }
     }
   }
 }
