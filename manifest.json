@@ -2,10 +2,10 @@
   "name": "Myna PCI Call Redaction",
   "author": {
     "name": "Myna Limited",
-    "email": "support@intelligentvoice.com",
+    "email": "support@meetmyna.com",
     "url": "https://meetmyna.com/"
   },
-  "version": "3.0.1",
+  "version": "4.0.0",
   "defaultLocale": "en",
   "marketingOnly": false,
   "private": false,
